@@ -8,7 +8,7 @@ const Navbar = ({heading}) => {
 
     const logout = () => {
         localStorage.removeItem('token')
-        window.location.href='/login'
+        navigate("/login");
     }
   return (
     <div className='grid grid-cols-3 text-center justify-center items-center text-2xl font-bold'>
