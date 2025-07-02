@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with USB receiver",
+    "price": 499,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.2
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "description": "Noise cancelling over-ear headphones",
+    "price": 1299,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Stainless Steel Water Bottle",
+    "description": "1 liter bottle, keeps drinks cold for 24 hours",
+    "price": 349,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.0
+  },
+  {
+    "id": 4,
+    "name": "Gaming Keyboard",
+    "description": "Mechanical RGB backlit keyboard",
+    "price": 1999,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.3
+  },
+  {
+    "id": 5,
+    "name": "Cotton Bedsheet Set",
+    "description": "King size bedsheet with 2 pillow covers",
+    "price": 899,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.1
+  },
+  {
+    "id": 6,
+    "name": "Running Shoes",
+    "description": "Lightweight and comfortable sports shoes",
+    "price": 1799,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.4
+  },
+  {
+    "id": 7,
+    "name": "Laptop Stand",
+    "description": "Adjustable aluminum stand for laptops up to 17 inches",
+    "price": 699,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.2
+  },
+  {
+    "id": 8,
+    "name": "Backpack",
+    "description": "Water-resistant backpack with multiple compartments",
+    "price": 999,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.0
+  },
+  {
+    "id": 9,
+    "name": "LED Table Lamp",
+    "description": "Rechargeable lamp with touch control and brightness adjustment",
+    "price": 449,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.3
+  },
+  {
+    "id": 10,
+    "name": "Yoga Mat",
+    "description": "Non-slip exercise mat for yoga and fitness",
+    "price": 599,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.5
+  },
+  {
+    "id": 11,
+    "name": "Scented Candles Set",
+    "description": "Set of 4 aromatic candles for relaxation",
+    "price": 349,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.6
+  },
+  {
+    "id": 12,
+    "name": "Wireless Charger",
+    "description": "Fast charging pad for smartphones",
+    "price": 899,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.2
+  },
+  {
+    "id": 13,
+    "name": "Smartwatch",
+    "description": "Fitness tracking watch with heart rate monitor",
+    "price": 2499,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.4
+  },
+  {
+    "id": 14,
+    "name": "Coffee Mug",
+    "description": "Ceramic mug with lid and handle",
+    "price": 249,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.1
+  },
+  {
+    "id": 15,
+    "name": "Notebook Set",
+    "description": "Pack of 5 ruled notebooks",
+    "price": 299,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.0
+  },
+  {
+    "id": 16,
+    "name": "Travel Neck Pillow",
+    "description": "Memory foam pillow with washable cover",
+    "price": 499,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.3
+  },
+  {
+    "id": 17,
+    "name": "Hair Dryer",
+    "description": "1200W compact foldable hair dryer",
+    "price": 799,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.1
+  },
+  {
+    "id": 18,
+    "name": "Desk Organizer",
+    "description": "Multi-compartment desk storage box",
+    "price": 349,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.2
+  },
+  {
+    "id": 19,
+    "name": "Smart LED Bulb",
+    "description": "WiFi enabled color changing bulb",
+    "price": 599,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.3
+  },
+  {
+    "id": 20,
+    "name": "Electric Kettle",
+    "description": "1.5L stainless steel kettle with auto shut-off",
+    "price": 1199,
+    "imageUrl": "https://via.placeholder.com/150",
+    "rating": 4.4
+  }
+]
