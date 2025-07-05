@@ -17,4 +17,4 @@ app.use('/api/auth',authRoutes)
 app.use('/api/feedback',feedbackRoutes)
 app.use('/api/user',userRoutes)
 
-app.listen(8080, () => console.log('server running at 8080'))
+app.listen(process.env.PORT, () => console.log('server running at 8080'))
