@@ -18,12 +18,12 @@ const Feedbacks = () => {
   const [editFeedbackId, setEditFeedbackId] = useState(null)
 
   const fetchFeedbacks = async () => {
-    const resUser = await axios.get('http://localhost:8080/api/feedback/user-feedbacks', {
+    const resUser = await axios.get(`${import.meta.env.VITE_BASE_URL}/api/feedback/user-feedbacks`, {
       headers: { authorization: `Bearer ${token}` }
     })
     setUserFeedbacks(resUser.data.userFeedback)
 
-    const resAll = await axios.get('http://localhost:8080/api/feedback/all-feedbacks', {
+    const resAll = await axios.get(`${import.meta.env.VITE_BASE_URL}/api/feedback/all-feedbacks`, {
       headers: { authorization: `Bearer ${token}` }
     })
     setAllFeedbacks(resAll.data.allFeedback)
