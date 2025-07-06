@@ -9,7 +9,7 @@ const Profile = () => {
 
     useEffect(()=>{
         const fetchUser = async() => {
-            const res = await axios.get('http://localhost:8080/api/user/getUser',{
+            const res = await axios.get(`${import.meta.env.VITE_BASE_URL}/api/user/getUser`,{
             headers: { authorization: `Bearer ${token}` }
             })
             setUser(res.data.user)
@@ -32,7 +32,7 @@ const Profile = () => {
     
     const handleUpdate = async () => {
         try {
-            const res = await axios.put('http://localhost:8080/api/user/updateUser', formData, {
+            const res = await axios.put(`${import.meta.env.VITE_BASE_URL}/api/user/updateUser`, formData, {
                 headers: { authorization: `Bearer ${token}` }
             })
             setUser(res.data.user)
@@ -46,10 +46,10 @@ const Profile = () => {
 
     const handleDelete = async () => {
         try {
-            await axios.delete('http://localhost:8080/api/user/deleteUser', {
+            await axios.delete(`${import.meta.env.VITE_BASE_URL}/api/user/deleteUser`, {
                 headers: { authorization: `Bearer ${token}` }
             })
-            await axios.delete('http://localhost:8080/api/feedback/delete-All-Feedbacks-Of-User', {
+            await axios.delete(`${import.meta.env.VITE_BASE_URL}/api/feedback/delete-All-Feedbacks-Of-User`, {
                 headers: { authorization: `Bearer ${token}` }
             })
             
