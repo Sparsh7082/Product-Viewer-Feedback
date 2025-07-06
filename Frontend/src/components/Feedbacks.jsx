@@ -59,7 +59,7 @@ const Feedbacks = () => {
 
   const handleUpdate = async () => {
     try {
-      await axios.put(`http://localhost:8080/api/feedback/update-feedback/${editFeedbackId}`, feedback, {
+      await axios.put(`${import.meta.env.VITE_BASE_URL}/api/feedback/update-feedback/${editFeedbackId}`, feedback, {
         headers: { authorization: `Bearer ${token}` }
       })
       setFeedbackPopup(false)
@@ -74,7 +74,7 @@ const Feedbacks = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:8080/api/feedback/delete-feedback/${id}`, {
+      await axios.delete(`${import.meta.env.VITE_BASE_URL}/api/feedback/delete-feedback/${id}`, {
         headers: { authorization: `Bearer ${token}` }
       })
       fetchFeedbacks()
