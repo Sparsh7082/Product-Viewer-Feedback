@@ -11,7 +11,10 @@ mongoose.connect(process.env.MONGO_URI).then(() => {
 
 const app = express()
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: process.env.FRONTEND_URL,
+    credentials: true
+}))
 
 app.use('/api/auth',authRoutes)
 app.use('/api/feedback',feedbackRoutes)
