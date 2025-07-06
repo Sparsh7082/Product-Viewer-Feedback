@@ -67,7 +67,7 @@ const Products = () => {
       alert("Feedback submitted!")
     }
     try {
-      await axios.post('http://localhost:8080/api/feedback/create-feedback',feedback,{headers: {authorization: `Bearer ${token}`}})
+      await axios.post(`${import.meta.env.VITE_BASE_URL}/api/feedback/create-feedback`,feedback,{headers: {authorization: `Bearer ${token}`}})
       setFeedbackPopup(false)
       setFeedback({ productId: '', title: '', description: '' })
     } catch (error) {
