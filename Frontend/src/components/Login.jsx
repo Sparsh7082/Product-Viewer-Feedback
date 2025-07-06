@@ -49,7 +49,7 @@ const Login = () => {
         className='rounded-xl bg-green-500 text-white font-bold p-2'>login</button>
       </form>
 
-      <div>don't have account? <button onClick={() => navigate('/register')}>Register</button></div>
+      <div>don't have account? <button onClick={() => navigate('/register')} className='cursor-pointer text-blue-500'>Register</button></div>
     </div>
   )
 }
